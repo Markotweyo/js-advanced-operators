@@ -1,4 +1,11 @@
-let car={}
 
-console.log(car.manufacturer)
-console.log(car.manufacturer?.country)
+let car=[];
+let manufacturer={name:"Toyota", country:"Japan"}
+
+car.push(manufacturer)
+
+
+
+
+console.log(car)
+console.log(car.country)
