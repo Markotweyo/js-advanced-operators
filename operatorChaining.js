@@ -1,11 +1,13 @@
 
-let car=[];
-let manufacturer={name:"Toyota", country:"Japan"}
+let car={name:"Toyota", country:"Japan", market: {usa:"below18", UK:"below16"}};
 
-car.push(manufacturer)
+
+
 
 
 
 
 console.log(car)
 console.log(car.country)
+console.log(car.market.UK)
+console.log(`CONDITION-${car.new??"NEW"}`)
